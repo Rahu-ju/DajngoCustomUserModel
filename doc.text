@@ -1,0 +1,7 @@
+# Configuration file
+
+In settings.py :
+    inside installed_apps:
+        'users.apps.UsersConfig'
+    at the end of the settings.py:
+        AUTH_USER_MODEL = 'users.CustomUser'
